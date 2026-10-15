@@ -1,47 +1,43 @@
 # Pricing notes (internal, do not send)
 
-15 Oct 2026. Background for `PROPOSAL.md`.
+Updated 15 Oct 2026. Background for `PROPOSAL.md`.
 
-## The honest picture
+## Pricing logic
 
-| | Agreed 15 Sept | Agreed 15 Oct |
-|---|---|---|
-| Scope | Audit + one landing page with private dining | Audit + 6-page personal site + 7-page company site with its own art direction, 2 bio pages, journal template, Wix migration of two domains |
-| Price | €1,200 | €2,000 |
-| Paid so far | €0 | €0 |
+- €1,200 is the normal price for one website, including the brand audit (the September deal: €200 audit + €1,000 build).
+- The second site (E&E) adds €800, already reduced, for €2,000.
+- Thank-you for the introduction to Larevue (the other client Agilson brought, already completed): −€300, so **€1,700**.
+- This answers Agilson's "think of it as one website" without dropping to €1,200: one project, one fee, with a visible reason for each reduction.
 
-- The scope grew about 3 to 4 times. The price grew 67%.
-- Remaining work, rough estimate: Jérémy site 25–30 h (Private Dining is built), E&E 45–55 h (art direction, 7 page types, copy editing, form), migration and DNS for two domains about 6 h, revisions about 10 h, calls and admin about 8 h. That is **about 95–110 h for €1,600 still to earn, or about €15/h**.
-- It is still worth taking: first paid client, two portfolio pieces (a Michelin chef and a hospitality company), a referral source (Agilson) and a recurring-revenue opening (ads, articles, care plan). The price is fixed; protect the margin with scope instead.
+## Payment
 
-## How the proposal protects you
+| | |
+|---|---|
+| Brand audit, delivered 17 Sept | €200 |
+| Deposit, 30% of the remaining €1,500 | €450 |
+| **To start** | **€650** |
+| jeremygillon.com live | €525 |
+| essencexp.com live | €525 |
+| Total | €1,700 |
 
-1. **Visible discount.** It shows a standard value of €3,200 and an introductory rate of −€1,200. This covers the call's "introduction" discount, gives Agilson the "one project" framing he asked for, and keeps your next client from seeing €800 per site as your rate. Change €3,200 if you want another anchor. I would not show a discount over about 40%.
-2. **Page caps.** Every page is listed, and extra pages cost €150. The E&E blueprint has 15 pages and its deck lists far more services; the proposal folds the services into one page.
-3. **Two revision rounds per site**, and one round on the E&E style sheet.
-4. **Content clause.** If you wait more than three weeks on their materials, the stage is due on preview approval. Jérémy's photos and facts have been missing since September (21 placeholders), so this is the clause most likely to matter.
-5. **Money moves first.** €800 on approval, so the audit delivered on 17 Sept gets paid now. Option if they push back: €1,000 / €500 / €500 (50% upfront, as you planned before the call).
-6. **Exclusions spelled out:** SEO articles, ads, social, photography, translation.
-7. **Upsells priced in the same document**, so ongoing work is expected rather than a surprise later.
+30% of €1,500 is €450, not €500. If you prefer a round €500 (a third), the start payment becomes €700 and the two launch payments become €500 each.
 
-## Decisions to make before sending
+## Hosting research (Oct 2026)
 
-- [ ] **Standard value anchor:** €3,200 (as drafted) or another figure.
-- [ ] **Add-on prices:** care plan €50/mo, article €150, Ads €300 + €200/mo. These are my suggestions, at the low end for Singapore. Raise them if you want; this is where the real margin is.
-- [ ] **Invoice.** STATUS says you don't issue invoices, but E&E is a company paying for its business site and will probably need one for its accounts. Decide before they ask: a simple invoice from you as a sole trader, or a receipt only.
-- [ ] **What "introduction fee discounted" meant on the call.** I read it as a discount for Jérémy, introduced through Agilson. If it meant that a future friend Agilson refers gets a discount, add a line in §3 and remove the introductory wording.
-- [ ] **E&E home page.** The decision log says E&E is B2B, with private dining only as a footer link. Agilson's PDF wanted "two doors" (businesses / private clients). The proposal follows the call. Confirm.
-- [ ] **Voice.** The PDF praises first person; the build is third person. Not a pricing issue, but it is cheaper to settle before copy changes.
+- **Cloudflare (recommended).** Pages hosting is free, with 500 builds a month, 100 custom domains per project and no commercial-use restriction found. The registrar sells at cost with no markup (about US$10–11 per .com; check the dashboard). Domains registered there must use Cloudflare DNS. Transfer takes about 5 business days and adds one year to the expiry date. Astro has an official Cloudflare adapter; the enquiry API route moves to a Pages Function.
+- **Vercel.** The Hobby plan is restricted to non-commercial use, so a business site needs Pro (about US$20 per seat per month). The current build targets Vercel, so moving means switching the adapter.
+- **Netlify.** The free plan uses credits (300 a month); when they run out, the sites pause until the next cycle. Paid plans are $9 (Personal) and $20 (Pro). I did not confirm commercial use on the free plan in Netlify's terms.
+- **IONOS.** No transfer fee; you pay one year of registration. .com renewal is about US$20 (third-party figure).
+- **Wix transfer-out:** Domains → Domain actions → Transfer away from Wix. The EPP code is emailed to the registrant within about 24 hours, and Wix auto-unlocks the domain and switches off privacy. 60-day lock after registration, a previous transfer, or a registrant change. The Wix site disconnects once the transfer completes, so launch the new site first.
+- **Email.** If Google Workspace was bought through Wix, the subscription stays with Wix and the MX, SPF and DKIM records must be recreated at the new DNS. If the domain is only connected to Wix (registered elsewhere), there is no transfer, only a DNS change.
 
-## Stack and hosting (settle before sending)
+Sources: [Cloudflare transfer docs](https://developers.cloudflare.com/registrar/domain-transfers), [Cloudflare Pages limits](https://developers.cloudflare.com/pages/platform/limits), [Vercel Hobby plan](https://vercel.com/docs/plans/hobby), [IONOS transfer cost](https://www.ionos.com/help/domains/prices-and-invoices/what-does-a-domain-transfer-cost/), [Wix transfer guide (PushPress)](https://help.pushpress.com/en/articles/8686191-transferring-your-domain-away-from-wix), [Wix email after transfer](https://www.wix.com/blog/how-does-email-work-on-wix), [Netlify free plan 2026](https://netli.fyi/blog/netlify-free-plan-limits-2026), [Google Workspace domain transfer](https://knowledge.workspace.google.com/admin/domains/transfer-your-domain-to-another-host).
 
-On the call you said HTML / React / Next on IONOS or Cloudflare. The existing build is Astro 5 on Vercel. Recommendation:
+## Later
 
-- **Keep Astro.** It outputs plain HTML, is custom code and is not a builder. Rewriting in Next costs days and gains the client nothing. The proposal describes it as "the same family as React and Next", which is accurate enough for a client.
-- **Move from Vercel to Cloudflare Pages.** Vercel's free Hobby plan is for non-commercial use only, so a business site there needs Pro (about $20/month). Cloudflare Pages is free for commercial use, has edges in SG, HK and BKK, and Astro has an official Cloudflare adapter. The one API route (enquiry email through Resend) moves to a Pages Function. Put the account in the client's name and invite yourself.
-- IONOS is fine as a domain registrar, but its hosting gives nothing Cloudflare doesn't.
-- Before touching DNS, find where the domains are registered (through Wix or elsewhere) and who hosts info@jeremygillon.com mail. Record every MX, SPF, DKIM and TXT record first.
+- Invoice question: later.
+- Prices for phase 2 (Ads, social, articles, care plan): send them as a separate proposal after launch, so they are not anchored low now.
 
-## Short WhatsApp message to send with it
+## WhatsApp message to send with it
 
-> Hi Agilson, hi Jérémy, thank you for today. Here is the proposal for the project as we discussed it: one project, two avenues, €2,000 in total, paid in three stages. It sets out exactly what each site includes, what I need from you, and what comes after launch (Ads, articles). Once you reply "approved" and the first stage is paid, I start the same week, with jeremygillon.com first. Agilson, the file on Jérémy's experience and awards is the first thing I need.
+> Hi Agilson, hi Jérémy, thank you for today. Here is the full proposal: one project, two avenues. €1,200 is my usual price for one website; the second site adds €800, and I've taken €300 off as a thank-you for the Larevue introduction, so the total is €1,700. To start: the €200 for the brand audit, plus a 30% deposit (€450). I've also laid out the hosting options and how we move both domains off Wix without touching your email. I'm really looking forward to the next phase too (Ads, social, content), and to building something long term together.
