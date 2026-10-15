@@ -4,10 +4,8 @@ Updated 15 Oct 2026. Background for `PROPOSAL.md`.
 
 ## Pricing logic
 
-- €1,200 is the normal price for one website, including the brand audit (the September deal: €200 audit + €1,000 build).
-- The second site (E&E) adds €800, already reduced, for €2,000.
-- Thank-you for the introduction to Larevue (the other client Agilson brought, already completed): −€300, so **€1,700**.
-- This answers Agilson's "think of it as one website" without dropping to €1,200: one project, one fee, with a visible reason for each reduction.
+- Shown to the client as one line: "Both websites, one project, including the brand audit: €2,000", then −€300 as thanks for the Larevue introduction, so **€1,700**. This answers Agilson's "one project" point before he raises it.
+- Behind it, your logic: €1,200 is the normal price for one website including the audit (the September deal: €200 audit + €1,000 build), plus €800 for the second site.
 
 ## Payment
 
@@ -20,7 +18,13 @@ Updated 15 Oct 2026. Background for `PROPOSAL.md`.
 | essencexp.com live | €525 |
 | Total | €1,700 |
 
-30% of €1,500 is €450, not €500. If you prefer a round €500 (a third), the start payment becomes €700 and the two launch payments become €500 each.
+No late-materials clause, by choice. 30 days of fixes after each launch are included (asked for by the Agilson review, cheap to give).
+
+## Persona review (15 Oct), what changed
+
+- Jérémy: no guests in photos; no price on the site (on request, contact first); clear links between the sites; launch with the photos he has.
+- Agilson: one-line price; two business enquiry types on E&E; 30 days of fixes. He may still open at €1,500 and ask for a €300 deposit: hold €1,700 and €450.
+- Contact funnel: before building the forms, agree with them what each form asks so they can call the client back. Optional Google sign-in, to decide together.
 
 ## Hosting research (Oct 2026)
 
@@ -40,4 +44,4 @@ Sources: [Cloudflare transfer docs](https://developers.cloudflare.com/registrar/
 
 ## WhatsApp message to send with it
 
-> Hi Agilson, hi Jérémy, thank you for today. Here is the full proposal: one project, two avenues. €1,200 is my usual price for one website; the second site adds €800, and I've taken €300 off as a thank-you for the Larevue introduction, so the total is €1,700. To start: the €200 for the brand audit, plus a 30% deposit (€450). I've also laid out the hosting options and how we move both domains off Wix without touching your email. I'm really looking forward to the next phase too (Ads, social, content), and to building something long term together.
+> Hi Agilson, hi Jérémy, thank you for today. Here is the full proposal: both websites as one project, including the brand audit, €2,000, with €300 off as a thank-you for the Larevue introduction, so €1,700 in total. To start: the €200 for the brand audit plus a 30% deposit (€450). Private dining stays fully tailor-made with no price shown, and we'll use the photos you already have at their best. I'm really looking forward to the next phase too (Ads and organic social), and to building something long term together.

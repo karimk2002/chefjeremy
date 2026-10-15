@@ -27,12 +27,12 @@ Built on **Art Direction v2**, which you approved: cream, forest and the monogra
 |---|---|
 | Home | "Michelin-starred chef, Singapore & beyond" |
 | Jérémy | Biography, career and Michelin milestones |
-| Private Dining | A fully tailor-made service: every menu is created for the host, the occasion and the guests. Shown through **2 to 3 past menus or experiences**, with no client names and no guests in frame |
+| Private Dining | A fully tailor-made service: every menu is created for the host, the occasion and the guests. No price listed: pricing on request, contact first. Shown through **2 to 3 past menus or experiences**, with no client names and no guests in frame |
 | Collaborations & Guest Chef | Residencies, brand dinners, special projects |
 | Press | Articles, features, recognition |
 | Contact | Two enquiry types: private dinner, or collaboration |
 
-There is also a privacy notice. A discreet line reading *"Founder & Culinary Director, Essence & Experience"* links to essencexp.com.
+There is also a privacy notice. A clear link reading *"Founder & Culinary Director, Essence & Experience"* links to essencexp.com.
 
 > Your suggested navigation had nine items. I recommend joining *Jérémy* and *Career & Michelin* into one page so the story reads as a whole. If you prefer separate pages, the content stays the same.
 
@@ -48,9 +48,9 @@ There is also a privacy notice. A discreet line reading *"Founder & Culinary Dir
 | Selected Work | Project types and proof. A name or logo appears only where its owner has given permission |
 | Team | Jérémy (Founder & Culinary Director, with "Discover Jérémy" linking to jeremygillon.com) and Agilson (Managing Partner), each with his own bio page |
 | Journal | Article layout, ready for SEO articles and their LinkedIn and Substack versions |
-| Contact | Business enquiry form: project type, location, stage, timeline, budget range |
+| Contact | Two business enquiries, consulting or events & collaborations: project type, location, stage, timeline, budget range |
 
-There is also a privacy notice. Private dining appears in the footer and links to jeremygillon.com.
+There is also a privacy notice. Private dining has its own link in the menu and footer, pointing to jeremygillon.com.
 
 ### Included on both sites
 
@@ -60,6 +60,7 @@ There is also a privacy notice. Private dining appears in the footer and links t
 - Privacy-friendly visitor statistics.
 - **Move off Wix:** domains transferred, existing email (e.g. info@jeremygillon.com) kept working, old addresses redirected. See §7.
 - **Two rounds of changes** on each site's preview before launch.
+- **30 days of fixes** after each launch.
 - A short handover guide.
 
 ---
@@ -68,9 +69,7 @@ There is also a privacy notice. Private dining appears in the footer and links t
 
 | | |
 |---|---|
-| One website, including the brand audit (the price we agreed in September) | €1,200 |
-| Second website, Essence & Experience (already a reduced price, since it builds on the same audit and design system) | + €800 |
-| **Subtotal** | **€2,000** |
+| **Both websites, one project, including the brand audit** (built on one audit and one design system) | **€2,000** |
 | Thank you for the introduction to Larevue | − €300 |
 | **Project fee, both avenues** | **€1,700** |
 
@@ -85,7 +84,7 @@ There is also a privacy notice. Private dining appears in the footer and links t
 | essencexp.com live | **€525** | |
 | **Total** | **€1,700** | |
 
-The last two payments are due when each site is ready to launch. If a launch waits more than three weeks on materials from your side, that payment is due when you approve the preview.
+The last two payments are due when each site goes live.
 
 ---
 
@@ -107,10 +106,10 @@ That is **about six weeks from approval**, provided the materials arrive in time
 
 **Jérémy**
 - One file with your experience, awards and collaborations (Agilson is preparing it)
-- The practical facts for private dining: guest minimum and maximum, number of courses, starting price, lead time, cancellation policy
+- The practical facts for private dining: guest minimum and maximum, number of courses, lead time, cancellation policy (no price is shown on the site)
 - 2 to 3 past menus or experiences to show
 - Monogram choice: A or B
-- Photos you hold the rights to, and ideally a short shoot covering: one real dinner photographed from the room, hands plating in a home kitchen, guests present but not identifiable, produce and ingredients, one warm daylight portrait
+- The photos you already have, with the rights to use them. They will be used at their best, and more can always be added later. Ideally, over time: one real dinner photographed from the room, the table and setting with no guests in frame, hands plating in a home kitchen, produce and ingredients, one warm daylight portrait
 - Written permission for any name or logo we show
 
 **Essence & Experience**
@@ -121,7 +120,10 @@ That is **about six weeks from approval**, provided the materials arrive in time
 **Both**
 - Access to the Wix account that holds the domains (later on, for deployment, not needed now)
 - How your email works today (Google Workspace bought through Wix, or something else)
+- For each form, the information you need to call the client back
 - Which inbox each enquiry form should reach
+
+**Enquiry forms and the contact funnel.** Each site has its own forms: private dinner and collaboration on jeremygillon.com; consulting, and events & collaborations on essencexp.com. Before building them, we structure the contact funnel together: what you need to know in each form to call the client back, and what happens after they send it. One idea to decide together: a Google sign-in on the forms, so clients type less and you receive verified contact details.
 
 ---
 
