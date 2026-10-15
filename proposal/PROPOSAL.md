@@ -38,7 +38,7 @@ There is also a privacy notice. A clear link reading *"Founder & Culinary Direct
 
 ### Avenue 2: essencexp.com (company, darker)
 
-**Art direction:** this is derived from v2, so there is no second audit. It uses the same font and frame, a related mark, and a darker palette (charcoal, black, muted gold) for consulting. You receive it as one style sheet with one round of changes, and the build starts after you approve it.
+**Art direction:** this is derived from v2, so there is no second audit. It uses the same font and frame, a related mark, and a darker palette for consulting. You receive it as one style sheet with one round of changes, and the build starts after you approve it.
 
 | Page | Content |
 |---|---|
