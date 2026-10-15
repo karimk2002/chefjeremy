@@ -25,7 +25,7 @@ Built on **Art Direction v2**, which you approved: cream, forest and the monogra
 
 | Page | Content |
 |---|---|
-| Home | "Michelin-starred chef, Singapore & beyond" |
+| Home | "Michelin-starred chef. Bespoke private dining, Singapore & beyond" |
 | Jérémy | Biography, career and Michelin milestones |
 | Private Dining | A fully tailor-made service: every menu is created for the host, the occasion and the guests. No price listed: pricing on request, contact first. Shown through **2 to 3 past menus or experiences**, with no client names and no guests in frame |
 | Collaborations & Guest Chef | Residencies, brand dinners, special projects |
@@ -55,7 +55,7 @@ There is also a privacy notice. Private dining has its own link in the menu and 
 ### Included on both sites
 
 - Works on phone, tablet and desktop. Fast and accessible.
-- **SEO foundations:** target keywords (private dining, private chef at home, chef events in Singapore; hospitality consulting for E&E), page titles and descriptions, image metadata and alt text, sitemap, Google Search Console.
+- **SEO foundations:** target keywords (luxury private chef, bespoke private dining, chef at home, chef events in Singapore; hospitality consulting for E&E), page titles and descriptions, image metadata and alt text, sitemap, Google Search Console.
 - Enquiry forms that deliver to your inbox, with a signed automatic reply.
 - Privacy-friendly visitor statistics.
 - **Move off Wix:** domains transferred, existing email (e.g. info@jeremygillon.com) kept working, old addresses redirected. See §7.
@@ -96,7 +96,7 @@ The last two payments are due when each site goes live.
 | 1–2 | jeremygillon.com preview (the page layouts are already built) |
 | 2 | Essence & Experience style sheet |
 | 3–5 | essencexp.com preview |
-| 6 | Both sites live, Wix closed |
+| 6 | Both sites live; Wix cancelled once the domains have moved |
 
 That is **about six weeks from approval**, provided the materials arrive in time. The domain transfer runs alongside the build, so it adds no delay.
 
@@ -123,7 +123,7 @@ That is **about six weeks from approval**, provided the materials arrive in time
 - For each form, the information you need to call the client back
 - Which inbox each enquiry form should reach
 
-**Enquiry forms and the contact funnel.** Each site has its own forms: private dinner and collaboration on jeremygillon.com; consulting, and events & collaborations on essencexp.com. Before building them, we structure the contact funnel together: what you need to know in each form to call the client back, and what happens after they send it. One idea to decide together: a Google sign-in on the forms, so clients type less and you receive verified contact details.
+**Enquiry forms and the contact funnel.** Each site has its own forms: private dinner and collaboration on jeremygillon.com; consulting, and events & collaborations on essencexp.com. The forms stay short and simple, and an assistant can enquire on the client's behalf. Before building them, one short call with you both to structure the contact funnel: what you need in each form to call the client back, what happens after they send it, and who receives which request (for example guest-chef requests to Jérémy, brand and corporate events to Essence & Experience).
 
 ---
 
@@ -143,7 +143,7 @@ These belong to the next phase (§8).
 
 ## 7. Hosting and moving off Wix
 
-Both sites are **custom-coded** with no page builder, so you have full control over design, speed and SEO, and you are free to choose where they live. There are four sensible options:
+Both sites are **custom-coded** with no page builder, so you have full control over design, speed and SEO, and you are free to choose where they live. I recommend Cloudflare; three alternatives are listed for comparison:
 
 | Option | Hosting | Domains | Approx. yearly cost, both sites | Notes |
 |---|---|---|---|---|

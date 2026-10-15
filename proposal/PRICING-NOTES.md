@@ -44,4 +44,12 @@ Sources: [Cloudflare transfer docs](https://developers.cloudflare.com/registrar/
 
 ## WhatsApp message to send with it
 
-> Hi Agilson, hi Jérémy, thank you for today. Here is the full proposal: both websites as one project, including the brand audit, €2,000, with €300 off as a thank-you for the Larevue introduction, so €1,700 in total. To start: the €200 for the brand audit plus a 30% deposit (€450). Private dining stays fully tailor-made with no price shown, and we'll use the photos you already have at their best. I'm really looking forward to the next phase too (Ads and organic social), and to building something long term together.
+> Hi Jérémy, hi Agilson 👋 Thank you again for today's call. Here is the full proposal.
+>
+> Both websites as one project, including the brand audit: €2,000, with €300 off as a thank-you for the Larevue introduction, so €1,700 in total. To start: €200 for the brand audit already delivered + a 30% deposit of €450, so €650. The rest is paid in two parts, when each site goes live.
+>
+> Private dining stays fully tailor-made, with no price shown (on request, contact first), and we'll make the most of the photos you already have, adding more over time.
+>
+> Jérémy, I'll send you monograms A and B again so you can choose.
+>
+> I'm really excited about this, and about the next phase too (Google Ads and organic social). I'd love for this to become a long-term partnership. If everything works for you, just reply "approved" here and I'll start this week 🙏
