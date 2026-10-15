@@ -21,20 +21,20 @@ Clients move between private dining, events and consulting, so each site sends v
 
 ### Avenue 1: jeremygillon.com (personal, light)
 
-Built on **Art Direction v2**, which you approved: cream, forest, herbs and the monogram.
+Built on **Art Direction v2**, which you approved: cream, forest and the monogram.
 
 | Page | Content |
 |---|---|
 | Home | "Michelin-starred chef, Singapore & beyond" |
-| Jérémy | Biography, culinary identity (Savoie, herbs and vegetables), career and Michelin milestones |
-| Private Dining | The eight-screen evening already designed, "The Alps, at your table", plus **2 to 3 past menus or experiences**, with no client names and no guests in frame |
+| Jérémy | Biography, career and Michelin milestones |
+| Private Dining | A fully tailor-made service: every menu is created for the host, the occasion and the guests. Shown through **2 to 3 past menus or experiences**, with no client names and no guests in frame |
 | Collaborations & Guest Chef | Residencies, brand dinners, special projects |
 | Press | Articles, features, recognition |
 | Contact | Two enquiry types: private dinner, or collaboration |
 
 There is also a privacy notice. A discreet line reading *"Founder & Culinary Director, Essence & Experience"* links to essencexp.com.
 
-> Your suggested navigation had nine items. I recommend joining *Jérémy*, *Culinary Identity* and *Career & Michelin* into one page so the story reads as a whole. If you prefer three separate pages, the content stays the same.
+> Your suggested navigation had nine items. I recommend joining *Jérémy* and *Career & Michelin* into one page so the story reads as a whole. If you prefer separate pages, the content stays the same.
 
 ### Avenue 2: essencexp.com (company, darker)
 
@@ -94,7 +94,7 @@ The last two payments are due when each site is ready to launch. If a launch wai
 | Week | |
 |---|---|
 | 0 | Approval and first payment. You send the materials in §5 |
-| 1–2 | jeremygillon.com preview (the Private Dining page is already built) |
+| 1–2 | jeremygillon.com preview (the page layouts are already built) |
 | 2 | Essence & Experience style sheet |
 | 3–5 | essencexp.com preview |
 | 6 | Both sites live, Wix closed |
@@ -107,10 +107,10 @@ That is **about six weeks from approval**, provided the materials arrive in time
 
 **Jérémy**
 - One file with your experience, awards and collaborations (Agilson is preparing it)
-- The practical facts for private dining: guest minimum and maximum, number of courses, starting price, lead time, cancellation policy, the herb list
+- The practical facts for private dining: guest minimum and maximum, number of courses, starting price, lead time, cancellation policy
 - 2 to 3 past menus or experiences to show
 - Monogram choice: A or B
-- Photos you hold the rights to, and ideally a short shoot covering: one real dinner photographed from the room, hands plating in a home kitchen, guests present but not identifiable, produce and the herb library, one warm daylight portrait
+- Photos you hold the rights to, and ideally a short shoot covering: one real dinner photographed from the room, hands plating in a home kitchen, guests present but not identifiable, produce and ingredients, one warm daylight portrait
 - Written permission for any name or logo we show
 
 **Essence & Experience**
@@ -119,7 +119,7 @@ That is **about six weeks from approval**, provided the materials arrive in time
 - 3 to 5 project examples (described by type when the client must stay confidential)
 
 **Both**
-- Access to the Wix account that holds the domains
+- Access to the Wix account that holds the domains (later on, for deployment, not needed now)
 - How your email works today (Google Workspace bought through Wix, or something else)
 - Which inbox each enquiry form should reach
 
@@ -176,7 +176,7 @@ If a domain was only connected to Wix but is registered elsewhere, no transfer i
 I am genuinely excited about what comes after launch. The websites are the foundation; the next phase is where they start bringing clients in:
 
 - **Google Ads** for private dining in Singapore, Thailand and Hong Kong
-- **Social media marketing**: Jérémy's Instagram as the personal voice, and LinkedIn and Substack for Essence & Experience
+- **Social media marketing**, with a focus on organic content: Jérémy's Instagram as the personal voice, and LinkedIn and Substack for Essence & Experience
 - **Journal articles** that build SEO over time and are reused across every channel
 
 As agreed on the call, the order is: website first, then Google Ads, then organic social content (starting from the photo catalogue of your current events), then paid social. I will send a proposal for this phase once the sites are live.
