@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Website Proposal · Jérémy Gillon × Essence & Experience</title>
+<link rel="stylesheet" href="fonts.css">
+<style>
+  :root {
+    --cream: #FBF7EE;
+    --ivory: #F1ECE0;
+    --forest: #20482D;
+    --moss: #557056;
+    --charcoal: #23282B;
+    --stone: #6A675E;
+    --rule: #DCD5C4;
+  }
+  @page { size: A4; margin: 0; }
+  @font-face { font-family: 'InterSys'; src: local('Inter Regular'), local('Inter-Regular'), local('Inter'); }
+  * { box-sizing: border-box; }
+  html, body { background: var(--cream); }
+  body {
+    margin: 0;
+    font-family: 'Inter', 'InterSys', sans-serif;
+    font-size: 9.6pt;
+    line-height: 1.55;
+    color: var(--charcoal);
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  h1, h2, h3, .serif {
+    font-family: 'Fraunces', serif;
+    font-weight: 300;
+    font-variation-settings: "opsz" 36;
+    color: var(--forest);
+    margin: 0;
+  }
+  h2 { font-size: 22pt; line-height: 1.15; margin-bottom: 5mm; }
+  h3 { font-size: 13pt; line-height: 1.25; margin: 7mm 0 2.5mm; }
+  p { margin: 0 0 2.5mm; }
+  .eyebrow {
+    font-size: 7.5pt; font-weight: 500; letter-spacing: .14em;
+    text-transform: uppercase; color: var(--moss); margin-bottom: 3mm;
+  }
+  .lead { font-size: 11pt; line-height: 1.6; }
+  .muted { color: var(--stone); }
+  .small { font-size: 8.4pt; }
+  .page { height: 297mm; padding: 20mm 20mm 0; position: relative; overflow: hidden; break-after: page; }
+  .page:last-child { break-after: auto; }
+  .page > footer { position: absolute; left: 20mm; right: 20mm; bottom: 11mm; display: flex; justify-content: space-between;
+    font-size: 6.8pt; letter-spacing: .12em; text-transform: uppercase; color: var(--stone); border-top: .5pt solid var(--rule); padding-top: 3mm; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; column-gap: 8mm; }
+  .keep { break-inside: avoid; }
+
+  /* Cover */
+  .cover {
+    height: 297mm; padding: 26mm 22mm 24mm;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  .cover h1 { font-size: 38pt; line-height: 1.08; letter-spacing: -.01em; }
+  .cover h1 em { font-style: italic; }
+  .cover .sub { font-family: 'Fraunces', serif; font-weight: 300; font-variation-settings: "opsz" 36;
+    font-size: 15pt; color: var(--charcoal); margin-top: 7mm; }
+  .cover .meta { border-top: .6pt solid var(--forest); padding-top: 5mm;
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 6mm; font-size: 8.6pt; }
+  .cover .meta b { display: block; font-weight: 500; font-size: 7.2pt; letter-spacing: .14em;
+    text-transform: uppercase; color: var(--moss); margin-bottom: 1.5mm; }
+  .cover .total { margin-top: 18mm; }
+  .cover .total .num { font-family: 'Fraunces', serif; font-weight: 300; font-variation-settings: "opsz" 72;
+    font-size: 44pt; color: var(--forest); line-height: 1; }
+
+  /* Two columns */
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 9mm; }
+  .card { background: var(--ivory); padding: 6mm 6mm 4mm; }
+  .card .domain { font-family: 'Fraunces', serif; font-weight: 300; font-variation-settings: "opsz" 36;
+    font-size: 14pt; color: var(--forest); margin-bottom: 1mm; }
+  .card .tone { font-size: 8pt; color: var(--stone); margin-bottom: 3.5mm; }
+  .swatches { display: flex; gap: 1.5mm; margin-bottom: 4mm; }
+  .swatches i { width: 7mm; height: 7mm; display: block; border: .4pt solid rgba(0,0,0,.08); }
+
+  /* Page lists */
+  ol.pages { list-style: none; margin: 0; padding: 0; counter-reset: p; }
+  ol.pages li { counter-increment: p; display: grid; grid-template-columns: 7mm 1fr;
+    padding: 2.2mm 0; border-top: .5pt solid var(--rule); }
+  ol.pages li::before { content: counter(p, decimal-leading-zero); font-size: 7.5pt; color: var(--moss);
+    font-weight: 500; padding-top: .6mm; }
+  ol.pages b { font-weight: 500; display: block; }
+  ol.pages span { color: var(--stone); font-size: 8.4pt; line-height: 1.45; display: block; }
+
+  ul.ticks { list-style: none; padding: 0; margin: 0; }
+  ul.ticks li { padding: 1.6mm 0 1.6mm 5mm; position: relative; border-top: .5pt solid var(--rule); }
+  ul.ticks li::before { content: ""; position: absolute; left: 0; top: 3.5mm; width: 2mm; height: .6pt; background: var(--forest); }
+  ul.ticks li b { font-weight: 500; }
+
+  .note { border-left: 1.2pt solid var(--moss); padding: 1mm 0 1mm 4mm; color: var(--stone); font-size: 8.6pt; margin: 4mm 0; }
+
+  /* Tables */
+  table { width: 100%; border-collapse: collapse; }
+  td, th { text-align: left; vertical-align: top; padding: 2.4mm 0; border-top: .5pt solid var(--rule); }
+  th { font-weight: 500; font-size: 7.4pt; letter-spacing: .12em; text-transform: uppercase; color: var(--moss); border-top: none; padding-bottom: 1.5mm; }
+  td.amt, th.amt { text-align: right; white-space: nowrap; padding-left: 4mm; }
+  tr.sub td { font-weight: 500; }
+  tr.minus td { color: var(--moss); }
+  tr.total td { border-top: 1pt solid var(--forest); padding-top: 3.5mm; }
+  tr.total td:first-child { font-weight: 500; }
+  tr.total .amt { font-family: 'Fraunces', serif; font-weight: 300; font-variation-settings: "opsz" 36; font-size: 18pt; color: var(--forest); line-height: 1; }
+  tr.start td { background: var(--ivory); font-weight: 500; }
+  tr.start td:first-child { padding-left: 3mm; }
+  tr.start td.amt { padding-right: 3mm; }
+  td .muted { display: block; font-size: 8.2pt; }
+
+  table.hosting td, table.hosting th { padding-right: 3mm; font-size: 8.4pt; }
+  table.hosting tr.rec td { background: var(--ivory); }
+  table.hosting td:first-child { padding-left: 2.5mm; }
+  table.hosting td:first-child { font-weight: 500; width: 22%; }
+  .tag { display: inline-block; font-size: 6.6pt; font-weight: 500; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--cream); background: var(--forest); padding: .5mm 1.6mm; margin-top: 1mm; }
+
+  /* Timeline */
+  .timeline { display: grid; grid-template-columns: repeat(5, 1fr); border-top: 1pt solid var(--forest); margin: 2mm 0 3mm; }
+  .timeline div { padding: 3mm 3mm 0 0; font-size: 8.4pt; line-height: 1.4; }
+  .timeline b { display: block; font-family: 'Fraunces', serif; font-weight: 300; font-variation-settings: "opsz" 36;
+    font-size: 12pt; color: var(--forest); margin-bottom: 1mm; }
+
+  ol.steps { margin: 0; padding: 0; list-style: none; counter-reset: s; }
+  ol.steps li { counter-increment: s; display: grid; grid-template-columns: 7mm 1fr; padding: 1.8mm 0; border-top: .5pt solid var(--rule); font-size: 8.8pt; }
+  ol.steps li::before { content: counter(s); font-family: 'Fraunces', serif; color: var(--forest); font-size: 11pt; line-height: 1.2; }
+
+  .phase { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5mm; margin: 5mm 0 7mm; }
+  .phase div { background: var(--ivory); padding: 5mm; }
+  .phase b { display: block; font-family: 'Fraunces', serif; font-weight: 300; font-variation-settings: "opsz" 36; font-size: 12pt; color: var(--forest); margin-bottom: 1.5mm; }
+  .phase span { font-size: 8.6pt; color: var(--stone); line-height: 1.45; display: block; }
+
+  .order { display: flex; align-items: center; gap: 2.5mm; flex-wrap: wrap; font-size: 8.6pt; margin: 2mm 0 8mm; }
+  .order span { border: .6pt solid var(--forest); color: var(--forest); padding: 1.2mm 3mm; border-radius: 10mm; }
+  .order i { font-style: normal; color: var(--moss); }
+
+  .approve { border-top: 1pt solid var(--forest); padding-top: 6mm; margin-top: 10mm; }
+  .approve .big { font-family: 'Fraunces', serif; font-weight: 300; font-variation-settings: "opsz" 36; font-size: 17pt; color: var(--forest); line-height: 1.3; margin-bottom: 4mm; }
+  .sign { margin-top: 12mm; font-family: 'Fraunces', serif; font-style: italic; font-weight: 300; font-size: 16pt; color: var(--forest); }
+</style>
+</head>
+<body>
+
+<!-- COVER -->
+<div class="cover page" style="padding:26mm 22mm 24mm">
+  <div>
+    <div class="eyebrow">Website proposal</div>
+  </div>
+  <div>
+    <h1>Jérémy Gillon<br>Essence &amp; Experience</h1>
+    <div class="sub">Two websites, one project.</div>
+    <div class="total">
+      <div class="eyebrow">Project fee, both websites</div>
+      <div class="num">€1,700</div>
+    </div>
+  </div>
+  <div class="meta">
+    <div><b>Prepared for</b>Jérémy Gillon<br>Agilson Valle</div>
+    <div><b>Prepared by</b>Karim Kouchrad</div>
+    <div><b>Date</b>15 October 2026<br>Valid until 15 November 2026</div>
+  </div>
+</div>
+
+<!-- 1. THE PROJECT -->
+<section class="page">
+  <div class="eyebrow">01 · The project</div>
+  <h2>Two separate websites that point to each other.</h2>
+  <p class="lead">Your clients move between private dining, events and consulting, so each site sends visitors to the other. They share one family look: the same fonts and frame, related marks, a sage, green and beige palette. Both leave Wix for custom code on hosting that you own.</p>
+
+  <div class="cols" style="margin-top:7mm">
+    <div class="card keep">
+      <div class="eyebrow">Avenue 1 · Personal</div>
+      <div class="domain">jeremygillon.com</div>
+      <div class="tone">Lighter. Built on Art Direction v2, already approved.</div>
+      <ol class="pages">
+        <li><div><b>Home</b><span>Michelin-starred chef. Bespoke private dining, Singapore &amp; beyond</span></div></li>
+        <li><div><b>Jérémy</b><span>Biography, career and Michelin milestones</span></div></li>
+        <li><div><b>Private Dining</b><span>A fully tailor-made service: every menu is created for the host, the occasion and the guests. No price listed: pricing on request, contact first. Shown through 2 to 3 past menus or experiences, with no client names and no guests in frame</span></div></li>
+        <li><div><b>Collaborations &amp; Guest Chef</b><span>Residencies, brand dinners, special projects</span></div></li>
+        <li><div><b>Press</b><span>Articles, features, recognition</span></div></li>
+        <li><div><b>Contact</b><span>Two enquiries: a private dinner, or a collaboration</span></div></li>
+      </ol>
+    </div>
+    <div class="card keep">
+      <div class="eyebrow">Avenue 2 · Company</div>
+      <div class="domain">essencexp.com</div>
+      <div class="tone">Darker. Its own style sheet, derived from v2.</div>
+      <ol class="pages">
+        <li><div><b>Home</b><span>Company proposition, services at a glance, proof, the founders</span></div></li>
+        <li><div><b>Services</b><span>Advisory, concepts, F&amp;B strategy, pre-opening, market entry, operations, talent, brand collaborations, events, each with its own linkable section</span></div></li>
+        <li><div><b>Collaborations &amp; Events</b><span>Guest-chef dinners, residencies, brand and corporate events</span></div></li>
+        <li><div><b>Selected Work</b><span>Project types and proof; names and logos only with permission</span></div></li>
+        <li><div><b>Team</b><span>Jérémy, Founder &amp; Culinary Director, and Agilson, Managing Partner, each with a bio page</span></div></li>
+        <li><div><b>Journal</b><span>Article layout, ready for SEO, LinkedIn and Substack</span></div></li>
+        <li><div><b>Contact</b><span>Two business enquiries, consulting or events &amp; collaborations: project type, location, stage, timeline, budget</span></div></li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="note">On jeremygillon.com, a clear link reads <i>“Founder &amp; Culinary Director, Essence &amp; Experience”</i> and links to essencexp.com. On essencexp.com, Jérémy’s bio links back with <i>“Discover Jérémy”</i>, and private dining has its own link in the menu and footer. Each site has its own privacy notice.</div>
+  <footer><span>Jérémy Gillon · Essence &amp; Experience · Website proposal</span><span>2</span></footer>
+</section>
+
+<!-- 2. INCLUDED + INVESTMENT -->
+<section class="page">
+  <div class="eyebrow">02 · Included on both sites</div>
+  <ul class="ticks grid2">
+    <li><b>Works everywhere.</b> Phone, tablet and desktop. Fast and accessible.</li>
+    <li><b>SEO foundations.</b> Target keywords (luxury private chef, bespoke private dining, chef at home, chef events in Singapore; hospitality consulting for E&amp;E), titles and descriptions, image metadata, sitemap, Google Search Console.</li>
+    <li><b>Enquiry forms</b> that reach your inbox, with a signed automatic reply.</li>
+    <li><b>Visitor statistics</b> that respect privacy.</li>
+    <li><b>Move off Wix.</b> Both domains transferred, email kept working, old addresses redirected.</li>
+    <li><b>Two rounds of changes</b> on each site before launch, and one on the E&amp;E style sheet.</li>
+    <li><b>30 days of fixes</b> after each launch.</li>
+    <li><b>Handover.</b> A short guide. Once paid in full, the code, domains and content are yours.</li>
+  </ul>
+
+  <div class="eyebrow" style="margin-top:9mm">03 · Investment</div>
+  <h2>One project, one fee.</h2>
+  <table class="keep">
+    <tr class="sub"><td>Both websites, one project, including the brand audit<span class="muted" style="font-weight:400">jeremygillon.com and essencexp.com, built on one audit and one design system</span></td><td class="amt">€2,000</td></tr>
+    <tr class="minus"><td>Thank you for the introduction to Larevue</td><td class="amt">− €300</td></tr>
+    <tr class="total"><td>Project fee, both websites</td><td class="amt">€1,700</td></tr>
+  </table>
+
+  <h3>Payment</h3>
+  <table class="keep">
+    <tr><th>When</th><th></th><th class="amt">Amount</th></tr>
+    <tr><td>Already delivered</td><td class="muted">Brand audit and Art Direction v2, 17 September</td><td class="amt">€200</td></tr>
+    <tr><td>On approval</td><td class="muted">Deposit: 30% of the remaining €1,500</td><td class="amt">€450</td></tr>
+    <tr class="start"><td>To start</td><td></td><td class="amt">€650</td></tr>
+    <tr><td>jeremygillon.com live</td><td></td><td class="amt">€525</td></tr>
+    <tr><td>essencexp.com live</td><td></td><td class="amt">€525</td></tr>
+  </table>
+  <p class="small muted" style="margin-top:3mm">The last two payments are due when each site goes live.</p>
+  <footer><span>Jérémy Gillon · Essence &amp; Experience · Website proposal</span><span>3</span></footer>
+</section>
+
+<!-- 4. TIMELINE + NEEDS -->
+<section class="page">
+  <div class="eyebrow">04 · Timeline</div>
+  <h2>About six weeks from approval.</h2>
+  <div class="timeline keep">
+    <div><b>Week 0</b>Approval, first payment, materials sent</div>
+    <div><b>Weeks 1–2</b>jeremygillon.com preview</div>
+    <div><b>Week 2</b>E&amp;E style sheet</div>
+    <div><b>Weeks 3–5</b>essencexp.com preview</div>
+    <div><b>Week 6</b>Both sites live; Wix cancelled once the domains have moved</div>
+  </div>
+  <p class="small muted">The page layouts are already built. The domain transfer runs alongside the build, so it adds no delay. The dates depend on the materials below arriving on time.</p>
+
+  <div class="eyebrow" style="margin-top:10mm">05 · What I need from you</div>
+  <div class="cols">
+    <div>
+      <h3 style="margin-top:0">Jérémy</h3>
+      <ul class="ticks">
+        <li>One file with your experience, awards and collaborations (Agilson is preparing it)</li>
+        <li>Private dining facts: guest minimum and maximum, courses, lead time, cancellation policy (no price is shown on the site)</li>
+        <li>2 to 3 past menus or experiences</li>
+        <li>Monogram: A or B</li>
+        <li>The photos you already have, with the rights to use them. They will be used at their best, and more can always be added later. Ideally, over time: a real dinner seen from the room, the table and setting with no guests in frame, hands plating at home, produce and ingredients, one daylight portrait</li>
+        <li>Written permission for any name or logo shown</li>
+      </ul>
+    </div>
+    <div>
+      <h3 style="margin-top:0">Essence &amp; Experience</h3>
+      <ul class="ticks">
+        <li>Service descriptions (your blueprint is the starting point; I structure and edit it)</li>
+        <li>Agilson’s bio and portrait</li>
+        <li>3 to 5 project examples, described by type where confidential</li>
+      </ul>
+      <h3>Both</h3>
+      <ul class="ticks">
+        <li>Access to the Wix account holding the domains <span class="muted">(later on, for deployment, not needed now)</span></li>
+        <li>How your email works today</li>
+        <li>For each form, the information you need to call the client back (see below)</li>
+        <li>The inbox each enquiry form should reach</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="note keep" style="margin-top:8mm"><b style="font-weight:500;color:var(--charcoal)">Enquiry forms and the contact funnel.</b> Each site has its own forms: private dinner and collaboration on jeremygillon.com; consulting, and events &amp; collaborations on essencexp.com. The forms stay short and simple, and an assistant can enquire on the client’s behalf. Before building them, one short call with you both to structure the contact funnel: what you need in each form to call the client back, what happens after they send it, and who receives which request (for example guest-chef requests to Jérémy, brand and corporate events to Essence &amp; Experience).</div>
+
+  <div class="eyebrow" style="margin-top:8mm">Not included in this project</div>
+  <p class="small muted">Articles and ongoing SEO content · Google Ads · Social media · Photography · French or other language versions · Pages beyond those listed · Third-party costs (domains, email, paid hosting). These belong to the next phase.</p>
+  <footer><span>Jérémy Gillon · Essence &amp; Experience · Website proposal</span><span>4</span></footer>
+</section>
+
+<!-- 6. HOSTING -->
+<section class="page">
+  <div class="eyebrow">06 · Hosting and moving off Wix</div>
+  <h2>Your sites, your accounts.</h2>
+  <p>The sites are custom-coded, with no page builder, so they can live anywhere. I recommend Cloudflare; three alternatives are listed for comparison. Whichever you choose, the account is in your name and I am added as a collaborator.</p>
+  <table class="hosting keep" style="margin-top:4mm">
+    <tr><th>Option</th><th>Hosting</th><th>Domains</th><th class="amt">Per year, both sites</th></tr>
+    <tr class="rec"><td>Cloudflare<br><span class="tag">Recommended</span></td><td>Free, business use allowed. Fast in Singapore, Thailand and Hong Kong</td><td>Registered at cost; hosting, domains and email settings in one place</td><td class="amt">≈ US$22</td></tr>
+    <tr><td>Netlify</td><td>Free plan; from US$9/month if traffic grows</td><td>Stay at any registrar</td><td class="amt">US$22–130</td></tr>
+    <tr><td>Vercel</td><td>Pro plan, about US$20/month (the free plan is for non-commercial use only)</td><td>Stay at any registrar</td><td class="amt">≈ US$260</td></tr>
+    <tr><td>IONOS</td><td>Classic shared hosting, slower and less flexible</td><td>No transfer fee; .com renewal about US$20</td><td class="amt">Plan dependent</td></tr>
+  </table>
+  <p class="small muted" style="margin-top:2mm">Prices as of October 2026, set by each provider.</p>
+
+  <h3>How the domains leave Wix</h3>
+  <ol class="steps keep">
+    <li><div>Every current setting is recorded first, especially email, so info@jeremygillon.com keeps working.</div></li>
+    <li><div>The new sites go live on a preview address. Nothing changes for visitors until you approve them.</div></li>
+    <li><div>In Wix: <b style="font-weight:500">Domains → Domain actions → Transfer away from Wix</b>. Wix unlocks the domain and emails a transfer code to its owner.</div></li>
+    <li><div>The transfer starts at the new provider with that code. It includes one extra year of registration, added to the current expiry date.</div></li>
+    <li><div>It takes up to 5–7 days. Email settings are recreated straight away, so mail is never interrupted.</div></li>
+    <li><div>Once both sites are live on their domains, the Wix plan can be cancelled.</div></li>
+  </ol>
+  <div class="note keep"><b style="font-weight:500;color:var(--charcoal)">Two things to know now.</b> A domain cannot move within 60 days of a change to its owner’s name or email, so please leave those untouched in Wix. If your email was bought through Wix, that subscription stays with Wix after the move and keeps working; it can move to Google later if you prefer.</div>
+  <footer><span>Jérémy Gillon · Essence &amp; Experience · Website proposal</span><span>5</span></footer>
+</section>
+
+<!-- 7. NEXT PHASE + APPROVAL -->
+<section class="page">
+  <div class="eyebrow">07 · The next phase</div>
+  <h2>The websites are the foundation.<br>Next, they start bringing clients in.</h2>
+  <p class="lead">I am genuinely excited about what comes after launch. This is where the work starts paying back.</p>
+  <div class="phase keep">
+    <div><b>Google Ads</b><span>Private dining in Singapore, Thailand and Hong Kong.</span></div>
+    <div><b>Social media marketing</b><span>With a focus on organic content. Jérémy’s Instagram as the personal voice; LinkedIn and Substack for Essence &amp; Experience.</span></div>
+    <div><b>Journal articles</b><span>SEO that builds over time, reused across every channel.</span></div>
+  </div>
+  <div class="eyebrow">The order we agreed</div>
+  <div class="order">
+    <span>Website</span><i>→</i><span>Google Ads</span><i>→</i><span>Organic social, from your event photos</span><i>→</i><span>Paid social</span>
+  </div>
+  <p>I will send a proposal for this phase once the sites are live. I would very much like this to become a long-term partnership, one that grows with Jérémy and with Essence &amp; Experience and works for all of us.</p>
+
+  <div class="approve keep">
+    <div class="eyebrow">08 · Approval</div>
+    <div class="big">Reply “approved” on WhatsApp and make the first payment of €650. I start the same week.</div>
+    <p class="muted small">€200 brand audit + €450 deposit. This proposal is valid until 15 November 2026.</p>
+    <div class="sign">Karim Kouchrad</div>
+  </div>
+  <footer><span>Jérémy Gillon · Essence &amp; Experience · Website proposal</span><span>6</span></footer>
+</section>
+
+</body>
+</html>
