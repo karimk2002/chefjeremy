@@ -6,6 +6,12 @@ Goal: deliver two interlinked websites (jeremygillon.com and essencexp.com) as o
 Status: **won.** Proposal sent 15 Oct (€1,700, €650 to start). Jérémy accepted on WhatsApp 16 Oct; bank details sent; Karim created the €650 invoice and drafted the WhatsApp message that sends it, asks for all materials in a shared Google Drive folder, and asks Agilson for the forms call. Deposit not received yet.
 
 ## Now
+**2026-10-16, Drive folder set up.** Shared folder "E&E" (owned by kkouchrad@gmail.com): https://drive.google.com/drive/folders/1tPWHxmI_4BsHi228JfyDvhJIRBpKHGDN
+- `1. Jérémy Gillon, Private Dining (jeremygillon.com)`: doc "Jérémy Gillon: what we need (fill in here)" + folders Photos, Menus and past experiences, Biography awards and press, Logos and permissions.
+- `2. Essence & Experience (essencexp.com)`: doc "Essence & Experience: what we need (fill in here)" + folders Photos and portraits, Project examples, Services and company documents, Logos and permissions.
+- `3. Both sites: forms, email and domains (fill in here)` doc at the top: the four forms table (filled on the call), email today, domains. Says no passwords or bank details in the folder.
+The docs follow proposal §5, plus the open fact checks (L'Épicurien accent, JAG years and stars), what's included in a private dinner, press links, E&E company details. Monogram row says Karim adds both images to Jérémy's folder (still to do).
+
 **2026-10-16, invoice created.** Karim created the €650 invoice (outside this repo). WhatsApp message drafted for the group: invoice attached, everything they have into a shared Google Drive folder (Karim creates it and pastes the link), and a request to Agilson for a 30-minute call to set up the enquiry forms of both sites (fields to call the client back, what happens after, who receives which request), Jérémy welcome to join.
 
 **2026-10-16, accepted.** WhatsApp group with Jérémy and Agilson:
@@ -58,9 +64,10 @@ Launch switches live in `site/src/content/site.ts` (BUILD-SPEC §14): `monogram`
 Email needs `RESEND_API_KEY`, `ENQUIRY_TO`, `ENQUIRY_FROM` (see `site/.env.example`); without them the API route redirects to `/enquire?error=1`.
 
 ## Next actions
-- [ ] **Send the €650 invoice (created 16 Oct) in the WhatsApp group** with the drafted message; create the shared Google Drive folder first and paste its link. Record the invoice number here once sent.
+- [ ] **Send the €650 invoice (created 16 Oct) in the WhatsApp group** with the drafted message and the Drive link; give Jérémy and Agilson edit access to the folder. Record the invoice number here once sent.
+- [ ] Upload the monogram A and B images into Jérémy's Drive folder (his doc says they'll be there).
 - [ ] Log the €650 when it lands (date, amount received after fees). Work starts that week.
-- [ ] Send Jérémy the monogram A and B images again (promised in the WhatsApp message) and log his pick.
+- [ ] Log Jérémy's monogram pick (A or B) from his Drive doc.
 - [ ] Book the forms call with Agilson (Jérémy optional), asked for in the 16 Oct message: fields per form, follow-up, who receives which request.
 - [ ] Watch the shared Google Drive folder and file what arrives against proposal §5 (Jérémy, E&E, both).
 - [ ] Chase Agilson for the promised file: Jérémy's experience, awards and collaborations compiled into one presentation.
