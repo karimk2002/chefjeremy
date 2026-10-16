@@ -3,9 +3,11 @@
 Updated: 2026-10-16
 
 Goal: deliver two interlinked websites (jeremygillon.com and essencexp.com) as one project, first paid client of the Agency.
-Status: **won.** Proposal sent 15 Oct (€1,700, €650 to start). Jérémy accepted on WhatsApp 16 Oct and asked where to send the deposit; bank details sent; he asked for an invoice. Deposit not received yet.
+Status: **won.** Proposal sent 15 Oct (€1,700, €650 to start). Jérémy accepted on WhatsApp 16 Oct; bank details sent; Karim created the €650 invoice and drafted the WhatsApp message that sends it, asks for all materials in a shared Google Drive folder, and asks Agilson for the forms call. Deposit not received yet.
 
 ## Now
+**2026-10-16, invoice created.** Karim created the €650 invoice (outside this repo). WhatsApp message drafted for the group: invoice attached, everything they have into a shared Google Drive folder (Karim creates it and pastes the link), and a request to Agilson for a 30-minute call to set up the enquiry forms of both sites (fields to call the client back, what happens after, who receives which request), Jérémy welcome to join.
+
 **2026-10-16, accepted.** WhatsApp group with Jérémy and Agilson:
 - 08:46 Jérémy: "Great perfect please share with us where can we send you the deposit"
 - 09:24 Karim sent his EUR bank details (Revolut, Karim Kouchrad; full details in the WhatsApp chat, not stored here)
@@ -56,10 +58,11 @@ Launch switches live in `site/src/content/site.ts` (BUILD-SPEC §14): `monogram`
 Email needs `RESEND_API_KEY`, `ENQUIRY_TO`, `ENQUIRY_FROM` (see `site/.env.example`); without them the API route redirects to `/enquire?error=1`.
 
 ## Next actions
-- [ ] **Send the invoice Jérémy asked for (16 Oct): €650** = €200 brand audit (delivered 17 Sept) + €450 deposit (30% of the remaining €1,500). Decide first: who is billed (Jérémy personally or Essence & Experience, legal name and address, Singapore UEN if E&E), and what Karim invoices as (sole trader status, address, tax/VAT ID or "not subject to VAT" line). Number it (e.g. 2026-001), payment terms, the bank details already sent.
+- [ ] **Send the €650 invoice (created 16 Oct) in the WhatsApp group** with the drafted message; create the shared Google Drive folder first and paste its link. Record the invoice number here once sent.
 - [ ] Log the €650 when it lands (date, amount received after fees). Work starts that week.
 - [ ] Send Jérémy the monogram A and B images again (promised in the WhatsApp message) and log his pick.
-- [ ] Book the short contact-funnel call with Jérémy and Agilson: fields per form, follow-up, who receives which request.
+- [ ] Book the forms call with Agilson (Jérémy optional), asked for in the 16 Oct message: fields per form, follow-up, who receives which request.
+- [ ] Watch the shared Google Drive folder and file what arrives against proposal §5 (Jérémy, E&E, both).
 - [ ] Chase Agilson for the promised file: Jérémy's experience, awards and collaborations compiled into one presentation.
 - [ ] Collect from Jérémy: 2 to 3 past private dining menus or experiences (no client names, no guests), private dining facts (guest min and max, courses, lead time, cancellation policy; no price on the site), the photos he has with rights, written permission for any name or logo shown.
 - [ ] Collect from E&E: service descriptions (from the blueprint), Agilson's bio and portrait, 3 to 5 project examples.
@@ -79,6 +82,7 @@ Email needs `RESEND_API_KEY`, `ENQUIRY_TO`, `ENQUIRY_FROM` (see `site/.env.examp
 - Figma MCP is capped at 20 tool calls per month on the Starter plan, and the quota is spent. The SVG import route replaces it.
 
 ## Decisions log
+- 2026-10-16: Materials are collected in one shared Google Drive folder (owned by Karim) rather than over WhatsApp. The forms call is asked of Agilson, with Jérémy invited.
 - 2026-10-16: **Accepted by Jérémy** on WhatsApp; bank details sent; invoice requested. Bank details live in the chat, not in this repo.
 - 2026-10-15 (proposal): **€1,700**, presented as one line (both websites, one project, including the brand audit, €2,000) minus €300 for the Larevue introduction. €650 to start (€200 audit + €450 deposit), €525 at each launch. No late clause. Private dining bespoke and adaptable, no price listed, no guests in photos, "The Alps, at your table" dropped. No Google sign-in on forms. 30 days of fixes per launch. Cloudflare recommended. Before sending, the PDF was tested with two simulated reviewers (Jérémy and Agilson), two rounds each; their objections were fixed.
 - 2026-10-15 (call): **Two separate but interlinked websites**, built as one project with two avenues. **€2,000 total: €400 audit + €800 jeremygillon.com + €800 essencexp.com**, no second audit. Deposit and staged payments accepted. Both sites move off the current builder to custom code on independent hosting. **Team bio pages for each partner live on the E&E site.** Shared palette, darker for consulting and lighter for private; similar logos, same font and frame. **Launch order: website, then Google Ads, with organic social before any paid Instagram or Facebook.** Private dining confirmed as Jérémy's site only, with a footer cross-link from E&E.
