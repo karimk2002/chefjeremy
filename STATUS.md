@@ -1,11 +1,21 @@
 # Chef Jérémy Gillon: STATUS
 
-Updated: 2026-10-16
+Updated: 2026-10-19
 
 Goal: deliver two interlinked websites (jeremygillon.com and essencexp.com) as one project, first paid client of the Agency.
 Status: **won.** Proposal sent 15 Oct (€1,700, €650 to start). Jérémy accepted on WhatsApp 16 Oct; bank details sent; Karim created the €650 invoice and drafted the WhatsApp message that sends it, asks for all materials in a shared Google Drive folder, and asks Agilson for the forms call. Deposit not received yet.
 
 ## Now
+**2026-10-19, Agilson sent the career material and proposed the forms call for Tuesday 20 Oct.** WhatsApp 03:04: "We can speak tomorrow Tuesday, if you are available", then a long list of Jérémy's events, four-hands chefs, hotels, brands, wine dinners, consulting, awards and press, plus three files. All filed in Drive, `1. Jérémy Gillon, Private Dining / Biography, awards, collaborations and press` (folder renamed to add "collaborations"):
+- Doc "Agilson: Jérémy's experience and collaborations (WhatsApp, 19 Oct 2026)": the list, tidied.
+- `Jeremy_Gillon_Collaborations_Prospects_Updated_2026_1.xlsx` (original, 44 rows) and `Jeremy_Gillon_Expanded_Collaborations_Prospects_Oct2026` (the 118-row CSV, converted to a Google Sheet). A prospect research database: each name tagged confirmed / chef-recalled / private, with sources. Internal sales tool for E&E, not site copy as is.
+- `22042025_Jeremy-Gillon_PR_card.pdf` (12 pages, E&E branded, the presentation Agilson promised): **not uploaded by Claude** (3.5 MB, too big for the connector). Karim to drag it into the same folder.
+What it settles or raises for the site:
+- Titles differ from the proposal: PR card has Jérémy "Founder, Culinary & Experience Director" and Agilson "Managing Director & Consulting Partner" (proposal and E&E doc say "Founder & Culinary Director" and "Managing Partner"). Confirm on the call.
+- Credentials: Maître Restaurateur 2009 to 2017; Gault & Millau 2010 to 2016 (the PR card misprints "2019–2016"); Michelin 2015 (L'Epicurien, the PR card writes it without the accent; the prospects sheet with) and the 2019 JAG star. "Michelin chef 2015 2025" is a career range, not continuous stars.
+- **Capella Hanoi is marked confidential in the prospects sheet: never on the site without Jérémy's written OK.** Brand names (Hermès, Jaguar, Longchamp, Macallan…) are chef-recalled; showing any of them still needs permission (proposal rule).
+- Agilson's bio and E&E's three consulting services (market entry, site selection, launch and operational readiness) are in the PR card: a start for the E&E Team and Services pages.
+
 **2026-10-16, Drive folder set up.** Shared folder "E&E" (owned by kkouchrad@gmail.com): https://drive.google.com/drive/folders/1tPWHxmI_4BsHi228JfyDvhJIRBpKHGDN
 - `1. Jérémy Gillon, Private Dining (jeremygillon.com)`: doc "Jérémy Gillon: what we need (fill in here)" + folders Photos, Menus and past experiences, Biography awards and press, Logos and permissions.
 - `2. Essence & Experience (essencexp.com)`: doc "Essence & Experience: what we need (fill in here)" + folders Photos and portraits, Project examples, Services and company documents, Logos and permissions.
@@ -68,9 +78,9 @@ Email needs `RESEND_API_KEY`, `ENQUIRY_TO`, `ENQUIRY_FROM` (see `site/.env.examp
 - [ ] Upload the monogram A and B images into Jérémy's Drive folder (his doc says they'll be there).
 - [ ] Log the €650 when it lands (date, amount received after fees). Work starts that week.
 - [ ] Log Jérémy's monogram pick (A or B) from his Drive doc.
-- [ ] Book the forms call with Agilson (Jérémy optional), asked for in the 16 Oct message: fields per form, follow-up, who receives which request.
+- [ ] **Forms call with Agilson, proposed Tuesday 20 Oct**: confirm a time; on the call fill "3. Both sites: forms, email and domains" (fields per form, follow-up, who receives which request) and confirm both partners' titles.
+- [ ] Drag `22042025_Jeremy-Gillon_PR_card.pdf` into Drive `1. Jérémy Gillon, Private Dining / Biography, awards, collaborations and press`.
 - [ ] Watch the shared Google Drive folder and file what arrives against proposal §5 (Jérémy, E&E, both).
-- [ ] Chase Agilson for the promised file: Jérémy's experience, awards and collaborations compiled into one presentation.
 - [ ] Collect from Jérémy: 2 to 3 past private dining menus or experiences (no client names, no guests), private dining facts (guest min and max, courses, lead time, cancellation policy; no price on the site), the photos he has with rights, written permission for any name or logo shown.
 - [ ] Collect from E&E: service descriptions (from the blueprint), Agilson's bio and portrait, 3 to 5 project examples.
 - [ ] **Before any code, align the build files with the approved scope:** CLAUDE.md (hard rule 4 "one offer": now a bespoke service with two enquiry types; voice rule; banned-word list still fine), BUILD-SPEC §1, §9, §10, §14 (`priceFrom` stays off for good, `herbsEnabled` off, `guests` row only as min/max facts), CONTENT.md (drop "The Alps, at your table" and the herb copy, add the bespoke wording and the new home line). The existing Private Dining build is restructured, not thrown away.
@@ -89,6 +99,7 @@ Email needs `RESEND_API_KEY`, `ENQUIRY_TO`, `ENQUIRY_FROM` (see `site/.env.examp
 - Figma MCP is capped at 20 tool calls per month on the Starter plan, and the quota is spent. The SVG import route replaces it.
 
 ## Decisions log
+- 2026-10-19: Agilson's career material (list, PR card, prospect sheets) filed with Jérémy's biography material in Drive. The prospect sheets are treated as internal source data: names go on the site only with permission, and Capella Hanoi never without Jérémy's OK.
 - 2026-10-16: Materials are collected in one shared Google Drive folder (owned by Karim) rather than over WhatsApp. The forms call is asked of Agilson, with Jérémy invited.
 - 2026-10-16: **Accepted by Jérémy** on WhatsApp; bank details sent; invoice requested. Bank details live in the chat, not in this repo.
 - 2026-10-15 (proposal): **€1,700**, presented as one line (both websites, one project, including the brand audit, €2,000) minus €300 for the Larevue introduction. €650 to start (€200 audit + €450 deposit), €525 at each launch. No late clause. Private dining bespoke and adaptable, no price listed, no guests in photos, "The Alps, at your table" dropped. No Google sign-in on forms. 30 days of fixes per launch. Cloudflare recommended. Before sending, the PDF was tested with two simulated reviewers (Jérémy and Agilson), two rounds each; their objections were fixed.
