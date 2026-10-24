@@ -100,6 +100,7 @@ Email needs `RESEND_API_KEY`, `ENQUIRY_TO`, `ENQUIRY_FROM` (see `site/.env.examp
 - Figma MCP is capped at 20 tool calls per month on the Starter plan, and the quota is spent. The SVG import route replaces it.
 
 ## Decisions log
+- 2026-10-24: Tracker with tick boxes replaces the read-only dashboard (the dashboard format can't save changes from the page). Timeline moved to the top.
 - 2026-10-24: €650 deposit received; the six weeks run from the week of 26 Oct. Dashboard updated (payments, week 0 done, build tasks moved to "now").
 - 2026-10-24: Project dashboard created on claude.ai, fed from this file. No new email or Drive activity from the client between 19 and 24 Oct; whether the 20 Oct call happened and whether the invoice was sent is not recorded.
 - 2026-10-19: Agilson's career material (list, PR card, prospect sheets) filed with Jérémy's biography material in Drive. The prospect sheets are treated as internal source data: names go on the site only with permission, and Capella Hanoi never without Jérémy's OK.
@@ -141,7 +142,8 @@ Email needs `RESEND_API_KEY`, `ENQUIRY_TO`, `ENQUIRY_FROM` (see `site/.env.examp
 - The mark: monogram alone in the header at 34px, minimum size 24px, clear space equal to the height of the G.
 
 ## Links
-- **Project dashboard** (private, claude.ai): https://claude.ai/artifact/9nGwqSW5nYHvQjHGnvnWVW. Next steps, waiting-on-client list, timeline, payments, progress by area. Its data is three JSON files built from this STATUS.md (tasks, milestones, payments); ask Claude to update them when something changes.
+- **Project tracker** (private, claude.ai, the one to use): https://claude.ai/artifact/6mHZVWGZ3zNUSPs57Hv93v. Timeline on top (click a stage to move it on), next steps grouped now / next / later with tick boxes, what the client owes (tickable), payments (tickable), done list (untick to reopen). Ticks save in the tracker's own database, which Claude can read back (collections `tasks`, `milestones`, `payments`) to sync this file.
+- Older read-only dashboard (superseded by the tracker, not deleted): https://claude.ai/artifact/9nGwqSW5nYHvQjHGnvnWVW.
 - This repo (github.com/karimk2002/chefjeremy): `STATUS.md`, `proposal/` (client PDF, HTML source, PROPOSAL.md, PRICING-NOTES.md). The site build and the other files below live on Karim's Mac, not here.
 - CLAUDE.md, BUILD-SPEC.md, CONTENT.md (canonical build files from 2026-10-05); the site in `site/`
 - Measured references: ~/Desktop/1 Projects/website builder/rebuild/singapore-private-chef/brand-reference/fine-dining-element-reference.md
