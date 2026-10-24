@@ -1,6 +1,6 @@
 # Chef Jérémy Gillon: STATUS
 
-Updated: 2026-10-19
+Updated: 2026-10-24
 
 Goal: deliver two interlinked websites (jeremygillon.com and essencexp.com) as one project, first paid client of the Agency.
 Status: **won.** Proposal sent 15 Oct (€1,700, €650 to start). Jérémy accepted on WhatsApp 16 Oct; bank details sent; Karim created the €650 invoice and drafted the WhatsApp message that sends it, asks for all materials in a shared Google Drive folder, and asks Agilson for the forms call. Deposit not received yet.
@@ -74,7 +74,7 @@ Launch switches live in `site/src/content/site.ts` (BUILD-SPEC §14): `monogram`
 Email needs `RESEND_API_KEY`, `ENQUIRY_TO`, `ENQUIRY_FROM` (see `site/.env.example`); without them the API route redirects to `/enquire?error=1`.
 
 ## Next actions
-- [ ] **Send the €650 invoice (created 16 Oct) in the WhatsApp group** with the drafted message and the Drive link; give Jérémy and Agilson edit access to the folder. Record the invoice number here once sent.
+- [ ] **Send invoice 2026-001 (€650, drafted 16 Oct in another session: plain layout, billed to Jérémy Gillon, Essence & Experience, Singapore; due on receipt; bank charges paid by the sender; PDF kept out of this repo because it carries the bank details)** in the WhatsApp group with the drafted message and the Drive link; give Jérémy and Agilson edit access to the folder. Before sending, check whether to bill the E&E company instead and whether a tax or VAT line is needed. As of 24 Oct no record that it was sent.
 - [ ] Upload the monogram A and B images into Jérémy's Drive folder (his doc says they'll be there).
 - [ ] Log the €650 when it lands (date, amount received after fees). Work starts that week.
 - [ ] Log Jérémy's monogram pick (A or B) from his Drive doc.
@@ -99,6 +99,7 @@ Email needs `RESEND_API_KEY`, `ENQUIRY_TO`, `ENQUIRY_FROM` (see `site/.env.examp
 - Figma MCP is capped at 20 tool calls per month on the Starter plan, and the quota is spent. The SVG import route replaces it.
 
 ## Decisions log
+- 2026-10-24: Project dashboard created on claude.ai, fed from this file. No new email or Drive activity from the client between 19 and 24 Oct; whether the 20 Oct call happened and whether the invoice was sent is not recorded.
 - 2026-10-19: Agilson's career material (list, PR card, prospect sheets) filed with Jérémy's biography material in Drive. The prospect sheets are treated as internal source data: names go on the site only with permission, and Capella Hanoi never without Jérémy's OK.
 - 2026-10-16: Materials are collected in one shared Google Drive folder (owned by Karim) rather than over WhatsApp. The forms call is asked of Agilson, with Jérémy invited.
 - 2026-10-16: **Accepted by Jérémy** on WhatsApp; bank details sent; invoice requested. Bank details live in the chat, not in this repo.
@@ -137,6 +138,7 @@ Email needs `RESEND_API_KEY`, `ENQUIRY_TO`, `ENQUIRY_FROM` (see `site/.env.examp
 - The mark: monogram alone in the header at 34px, minimum size 24px, clear space equal to the height of the G.
 
 ## Links
+- **Project dashboard** (private, claude.ai): https://claude.ai/artifact/9nGwqSW5nYHvQjHGnvnWVW. Next steps, waiting-on-client list, timeline, payments, progress by area. Its data is three JSON files built from this STATUS.md (tasks, milestones, payments); ask Claude to update them when something changes.
 - This repo (github.com/karimk2002/chefjeremy): `STATUS.md`, `proposal/` (client PDF, HTML source, PROPOSAL.md, PRICING-NOTES.md). The site build and the other files below live on Karim's Mac, not here.
 - CLAUDE.md, BUILD-SPEC.md, CONTENT.md (canonical build files from 2026-10-05); the site in `site/`
 - Measured references: ~/Desktop/1 Projects/website builder/rebuild/singapore-private-chef/brand-reference/fine-dining-element-reference.md
