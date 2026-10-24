@@ -1,11 +1,31 @@
 # Chef Jérémy Gillon: STATUS
 
-Updated: 2026-10-16
+Updated: 2026-10-24
 
 Goal: deliver two interlinked websites (jeremygillon.com and essencexp.com) as one project, first paid client of the Agency.
-Status: **won.** Proposal sent 15 Oct (€1,700, €650 to start). Jérémy accepted on WhatsApp 16 Oct and asked where to send the deposit; bank details sent; he asked for an invoice. Deposit not received yet.
+Status: **won, deposit paid.** €650 (invoice 2026-001) received by 24 Oct; the build starts the week of 26 Oct, so both sites are due live about the week of 30 Nov. Earlier: Proposal sent 15 Oct (€1,700, €650 to start). Jérémy accepted on WhatsApp 16 Oct; bank details sent; Karim created the €650 invoice and drafted the WhatsApp message that sends it, asks for all materials in a shared Google Drive folder, and asks Agilson for the forms call. Deposit received by 24 Oct.
 
 ## Now
+**2026-10-24, €650 received.** Karim confirmed Jérémy paid invoice 2026-001 (€200 audit + €450 deposit). Exact date and amount after fees not logged yet. Paid so far: €650 of €1,700; next €525 at the jeremygillon.com launch. Week 0 done; weeks 1–2 (jeremygillon.com preview) start now.
+
+**2026-10-19, Agilson sent the career material and proposed the forms call for Tuesday 20 Oct.** WhatsApp 03:04: "We can speak tomorrow Tuesday, if you are available", then a long list of Jérémy's events, four-hands chefs, hotels, brands, wine dinners, consulting, awards and press, plus three files. All filed in Drive, `1. Jérémy Gillon, Private Dining / Biography, awards, collaborations and press` (folder renamed to add "collaborations"):
+- Doc "Agilson: Jérémy's experience and collaborations (WhatsApp, 19 Oct 2026)": the list, tidied.
+- `Jeremy_Gillon_Collaborations_Prospects_Updated_2026_1.xlsx` (original, 44 rows) and `Jeremy_Gillon_Expanded_Collaborations_Prospects_Oct2026` (the 118-row CSV, converted to a Google Sheet). A prospect research database: each name tagged confirmed / chef-recalled / private, with sources. Internal sales tool for E&E, not site copy as is.
+- `22042025_Jeremy-Gillon_PR_card.pdf` (12 pages, E&E branded, the presentation Agilson promised): **not uploaded by Claude** (3.5 MB, too big for the connector). Karim to drag it into the same folder.
+What it settles or raises for the site:
+- Titles differ from the proposal: PR card has Jérémy "Founder, Culinary & Experience Director" and Agilson "Managing Director & Consulting Partner" (proposal and E&E doc say "Founder & Culinary Director" and "Managing Partner"). Confirm on the call.
+- Credentials: Maître Restaurateur 2009 to 2017; Gault & Millau 2010 to 2016 (the PR card misprints "2019–2016"); Michelin 2015 (L'Epicurien, the PR card writes it without the accent; the prospects sheet with) and the 2019 JAG star. "Michelin chef 2015 2025" is a career range, not continuous stars.
+- **Capella Hanoi is marked confidential in the prospects sheet: never on the site without Jérémy's written OK.** Brand names (Hermès, Jaguar, Longchamp, Macallan…) are chef-recalled; showing any of them still needs permission (proposal rule).
+- Agilson's bio and E&E's three consulting services (market entry, site selection, launch and operational readiness) are in the PR card: a start for the E&E Team and Services pages.
+
+**2026-10-16, Drive folder set up.** Shared folder "E&E" (owned by kkouchrad@gmail.com): https://drive.google.com/drive/folders/1tPWHxmI_4BsHi228JfyDvhJIRBpKHGDN
+- `1. Jérémy Gillon, Private Dining (jeremygillon.com)`: doc "Jérémy Gillon: what we need (fill in here)" + folders Photos, Menus and past experiences, Biography awards and press, Logos and permissions.
+- `2. Essence & Experience (essencexp.com)`: doc "Essence & Experience: what we need (fill in here)" + folders Photos and portraits, Project examples, Services and company documents, Logos and permissions.
+- `3. Both sites: forms, email and domains (fill in here)` doc at the top: the four forms table (filled on the call), email today, domains. Says no passwords or bank details in the folder.
+The docs follow proposal §5, plus the open fact checks (L'Épicurien accent, JAG years and stars), what's included in a private dinner, press links, E&E company details. Monogram row says Karim adds both images to Jérémy's folder (still to do).
+
+**2026-10-16, invoice created.** Karim created the €650 invoice (outside this repo). WhatsApp message drafted for the group: invoice attached, everything they have into a shared Google Drive folder (Karim creates it and pastes the link), and a request to Agilson for a 30-minute call to set up the enquiry forms of both sites (fields to call the client back, what happens after, who receives which request), Jérémy welcome to join.
+
 **2026-10-16, accepted.** WhatsApp group with Jérémy and Agilson:
 - 08:46 Jérémy: "Great perfect please share with us where can we send you the deposit"
 - 09:24 Karim sent his EUR bank details (Revolut, Karim Kouchrad; full details in the WhatsApp chat, not stored here)
@@ -56,14 +76,16 @@ Launch switches live in `site/src/content/site.ts` (BUILD-SPEC §14): `monogram`
 Email needs `RESEND_API_KEY`, `ENQUIRY_TO`, `ENQUIRY_FROM` (see `site/.env.example`); without them the API route redirects to `/enquire?error=1`.
 
 ## Next actions
-- [ ] **Send invoice 2026-001 (drafted 16 Oct, plain black-and-white layout, billed to Jérémy Gillon, Essence & Experience, Singapore; €200 audit + €450 deposit = €650, due on receipt, bank charges paid by the sender). The PDF is kept out of this repo because it carries the bank details.** Before sending, check whether it should be billed to the E&E company instead, and whether your tax status needs a tax ID or VAT line. Original task: send the invoice Jérémy asked for (16 Oct): €650 = €200 brand audit (delivered 17 Sept) + €450 deposit (30% of the remaining €1,500). Decide first: who is billed (Jérémy personally or Essence & Experience, legal name and address, Singapore UEN if E&E), and what Karim invoices as (sole trader status, address, tax/VAT ID or "not subject to VAT" line). Number it (e.g. 2026-001), payment terms, the bank details already sent.
-- [ ] Log the €650 when it lands (date, amount received after fees). Work starts that week.
-- [ ] Send Jérémy the monogram A and B images again (promised in the WhatsApp message) and log his pick.
-- [ ] Book the short contact-funnel call with Jérémy and Agilson: fields per form, follow-up, who receives which request.
-- [ ] Chase Agilson for the promised file: Jérémy's experience, awards and collaborations compiled into one presentation.
+- [x] ~~Send invoice 2026-001~~ (sent and paid by 24 Oct). Was: **Send invoice 2026-001 (€650, drafted 16 Oct in another session: plain layout, billed to Jérémy Gillon, Essence & Experience, Singapore; due on receipt; bank charges paid by the sender; PDF kept out of this repo because it carries the bank details)** in the WhatsApp group with the drafted message and the Drive link; give Jérémy and Agilson edit access to the folder. Before sending, check whether to bill the E&E company instead and whether a tax or VAT line is needed. As of 24 Oct no record that it was sent.
+- [ ] Upload the monogram A and B images into Jérémy's Drive folder (his doc says they'll be there).
+- [ ] Log the exact date and the amount received after fees for the €650 (received by 24 Oct).
+- [ ] Log Jérémy's monogram pick (A or B) from his Drive doc.
+- [ ] **Forms call with Agilson, proposed Tuesday 20 Oct**: confirm a time; on the call fill "3. Both sites: forms, email and domains" (fields per form, follow-up, who receives which request) and confirm both partners' titles.
+- [ ] Drag `22042025_Jeremy-Gillon_PR_card.pdf` into Drive `1. Jérémy Gillon, Private Dining / Biography, awards, collaborations and press`.
+- [ ] Watch the shared Google Drive folder and file what arrives against proposal §5 (Jérémy, E&E, both).
 - [ ] Collect from Jérémy: 2 to 3 past private dining menus or experiences (no client names, no guests), private dining facts (guest min and max, courses, lead time, cancellation policy; no price on the site), the photos he has with rights, written permission for any name or logo shown.
 - [ ] Collect from E&E: service descriptions (from the blueprint), Agilson's bio and portrait, 3 to 5 project examples.
-- [ ] **Before any code, align the build files with the approved scope:** CLAUDE.md (hard rule 4 "one offer": now a bespoke service with two enquiry types; voice rule; banned-word list still fine), BUILD-SPEC §1, §9, §10, §14 (`priceFrom` stays off for good, `herbsEnabled` off, `guests` row only as min/max facts), CONTENT.md (drop "The Alps, at your table" and the herb copy, add the bespoke wording and the new home line). The existing Private Dining build is restructured, not thrown away.
+- [ ] **Now (deposit in): before any code, align the build files with the approved scope:** CLAUDE.md (hard rule 4 "one offer": now a bespoke service with two enquiry types; voice rule; banned-word list still fine), BUILD-SPEC §1, §9, §10, §14 (`priceFrom` stays off for good, `herbsEnabled` off, `guests` row only as min/max facts), CONTENT.md (drop "The Alps, at your table" and the herb copy, add the bespoke wording and the new home line). The existing Private Dining build is restructured, not thrown away.
 - [ ] Move the stack from Vercel to Cloudflare Pages (Astro Cloudflare adapter; the enquiry API route becomes a Pages Function). Vercel Hobby is non-commercial only.
 - [ ] E&E style sheet (week 2): derived from v2, darker, one round of changes.
 - [ ] Domains: find where jeremygillon.com and essencexp.com are registered (Wix or elsewhere) and how email works today (Google Workspace via Wix?). Record every MX, SPF, DKIM, TXT before touching DNS. Access only at deployment.
@@ -75,10 +97,14 @@ Email needs `RESEND_API_KEY`, `ENQUIRY_TO`, `ENQUIRY_FROM` (see `site/.env.examp
 ## Blockers
 - **iCloud evicts files from this folder.** ~/Desktop is synced to iCloud Drive ("Desktop & Documents"), and on 2026-10-06 iCloud had evicted 11,671 files from `site/node_modules` (marked dataless), so every Astro command hung at startup waiting for reads that never came back. Fix applied: `site/node_modules` is now a symlink to `site/node_modules.nosync` (iCloud ignores `*.nosync`), reinstalled fresh. Rule from now on: never `rm` the symlink without recreating it; `npm install` works through it. The photos, `dist/` and `.astro/` can still be evicted; if a build hangs again with no output and 0% CPU, run `find . -flags +dataless | head` before anything else. Long term, keep code outside iCloud (for example ~/Code) and leave only the documents here.
 - Launch blockers: photo rights, guest min and max, lead time and cancellation policy, domain and DNS access (at deployment), enquiry inbox per form. Nothing ships publicly until these land.
-- Deposit (€650) not received yet; the invoice is the blocker on our side.
 - Figma MCP is capped at 20 tool calls per month on the Starter plan, and the quota is spent. The SVG import route replaces it.
 
 ## Decisions log
+- 2026-10-24: Tracker with tick boxes replaces the read-only dashboard (the dashboard format can't save changes from the page). Timeline moved to the top.
+- 2026-10-24: €650 deposit received; the six weeks run from the week of 26 Oct. Dashboard updated (payments, week 0 done, build tasks moved to "now").
+- 2026-10-24: Project dashboard created on claude.ai, fed from this file. No new email or Drive activity from the client between 19 and 24 Oct; whether the 20 Oct call happened and whether the invoice was sent is not recorded.
+- 2026-10-19: Agilson's career material (list, PR card, prospect sheets) filed with Jérémy's biography material in Drive. The prospect sheets are treated as internal source data: names go on the site only with permission, and Capella Hanoi never without Jérémy's OK.
+- 2026-10-16: Materials are collected in one shared Google Drive folder (owned by Karim) rather than over WhatsApp. The forms call is asked of Agilson, with Jérémy invited.
 - 2026-10-16: **Accepted by Jérémy** on WhatsApp; bank details sent; invoice requested. Bank details live in the chat, not in this repo.
 - 2026-10-15 (proposal): **€1,700**, presented as one line (both websites, one project, including the brand audit, €2,000) minus €300 for the Larevue introduction. €650 to start (€200 audit + €450 deposit), €525 at each launch. No late clause. Private dining bespoke and adaptable, no price listed, no guests in photos, "The Alps, at your table" dropped. No Google sign-in on forms. 30 days of fixes per launch. Cloudflare recommended. Before sending, the PDF was tested with two simulated reviewers (Jérémy and Agilson), two rounds each; their objections were fixed.
 - 2026-10-15 (call): **Two separate but interlinked websites**, built as one project with two avenues. **€2,000 total: €400 audit + €800 jeremygillon.com + €800 essencexp.com**, no second audit. Deposit and staged payments accepted. Both sites move off the current builder to custom code on independent hosting. **Team bio pages for each partner live on the E&E site.** Shared palette, darker for consulting and lighter for private; similar logos, same font and frame. **Launch order: website, then Google Ads, with organic social before any paid Instagram or Facebook.** Private dining confirmed as Jérémy's site only, with a footer cross-link from E&E.
@@ -100,6 +126,7 @@ Email needs `RESEND_API_KEY`, `ENQUIRY_TO`, `ENQUIRY_FROM` (see `site/.env.examp
 - 2026-09-17: commercial line held. Composed page mockups are build work, delivered after payment, not inside the moodboard.
 
 ## Facts to keep straight
+- Paid: **€650 received by 24 Oct** (invoice 2026-001). Remaining €1,050: €525 at each launch.
 - Price: **€1,700 total** (accepted 16 Oct). €200 brand audit (delivered 17 Sept: references PDF + Art Direction v2) + €450 deposit = €650 to start, then €525 + €525 at the two launches. Nothing paid as of 16 Oct morning.
 - Payment: bank transfer in EUR to Karim's Revolut account (details sent on WhatsApp 16 Oct).
 - Jérémy's Instagram: about 12,000 followers, stays the B2C persona. No E&E account exists yet.
@@ -115,6 +142,8 @@ Email needs `RESEND_API_KEY`, `ENQUIRY_TO`, `ENQUIRY_FROM` (see `site/.env.examp
 - The mark: monogram alone in the header at 34px, minimum size 24px, clear space equal to the height of the G.
 
 ## Links
+- **Project tracker** (private, claude.ai, the one to use): https://claude.ai/artifact/6mHZVWGZ3zNUSPs57Hv93v. Timeline on top (click a stage to move it on), next steps grouped now / next / later with tick boxes, what the client owes (tickable), payments (tickable), done list (untick to reopen). Ticks save in the tracker's own database, which Claude can read back (collections `tasks`, `milestones`, `payments`) to sync this file.
+- Older read-only dashboard (superseded by the tracker, not deleted): https://claude.ai/artifact/9nGwqSW5nYHvQjHGnvnWVW.
 - This repo (github.com/karimk2002/chefjeremy): `STATUS.md`, `proposal/` (client PDF, HTML source, PROPOSAL.md, PRICING-NOTES.md). The site build and the other files below live on Karim's Mac, not here.
 - CLAUDE.md, BUILD-SPEC.md, CONTENT.md (canonical build files from 2026-10-05); the site in `site/`
 - Measured references: ~/Desktop/1 Projects/website builder/rebuild/singapore-private-chef/brand-reference/fine-dining-element-reference.md
