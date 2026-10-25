@@ -1,6 +1,6 @@
 # Chef Jérémy Gillon: STATUS
 
-Updated: 2026-10-24
+Updated: 2026-10-25
 
 Goal: deliver two interlinked websites (jeremygillon.com and essencexp.com) as one project, first paid client of the Agency.
 Status: **won, deposit paid.** €650 (invoice 2026-001) received by 24 Oct; the build starts the week of 26 Oct, so both sites are due live about the week of 30 Nov. Earlier: Proposal sent 15 Oct (€1,700, €650 to start). Jérémy accepted on WhatsApp 16 Oct; bank details sent; Karim created the €650 invoice and drafted the WhatsApp message that sends it, asks for all materials in a shared Google Drive folder, and asks Agilson for the forms call. Deposit received by 24 Oct.
@@ -142,7 +142,7 @@ Email needs `RESEND_API_KEY`, `ENQUIRY_TO`, `ENQUIRY_FROM` (see `site/.env.examp
 - The mark: monogram alone in the header at 34px, minimum size 24px, clear space equal to the height of the G.
 
 ## Links
-- **Project tracker** (private, claude.ai, the one to use): https://claude.ai/artifact/6mHZVWGZ3zNUSPs57Hv93v. Timeline on top (click a stage to move it on), next steps grouped now / next / later with tick boxes, what the client owes (tickable), payments (tickable), done list (untick to reopen). Ticks save in the tracker's own database, which Claude can read back (collections `tasks`, `milestones`, `payments`) to sync this file.
+- **Project tracker** (private, claude.ai, the one to use): https://claude.ai/artifact/6mHZVWGZ3zNUSPs57Hv93v. Timeline on top (click a stage to move it on), next steps grouped now / next / later with tick boxes, what the client owes (tickable), payments (tickable), done list (untick to reopen), and a form to add a step or log something already done (steps added there can be removed). Ticks save in the tracker's own database, which Claude can read back (collections `tasks`, `milestones`, `payments`) to sync this file.
 - Older read-only dashboard (superseded by the tracker, not deleted): https://claude.ai/artifact/9nGwqSW5nYHvQjHGnvnWVW.
 - This repo (github.com/karimk2002/chefjeremy): `STATUS.md`, `proposal/` (client PDF, HTML source, PROPOSAL.md, PRICING-NOTES.md). The site build and the other files below live on Karim's Mac, not here.
 - CLAUDE.md, BUILD-SPEC.md, CONTENT.md (canonical build files from 2026-10-05); the site in `site/`
