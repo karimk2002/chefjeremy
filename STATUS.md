@@ -6,6 +6,15 @@ Goal: deliver two interlinked websites (jeremygillon.com and essencexp.com) as o
 Status: **won, deposit paid.** €650 (invoice 2026-001) received by 24 Oct; the build starts the week of 26 Oct, so both sites are due live about the week of 30 Nov. Earlier: Proposal sent 15 Oct (€1,700, €650 to start). Jérémy accepted on WhatsApp 16 Oct; bank details sent; Karim created the €650 invoice and drafted the WhatsApp message that sends it, asks for all materials in a shared Google Drive folder, and asks Agilson for the forms call. Deposit received by 24 Oct.
 
 ## Now
+**2026-10-26, call with Agilson (forms and content).** Karim's summary of the call:
+- **Forms:** separate forms for B2C (jeremygillon.com) and B2B (essencexp.com). The private dining form already on the current build captures what is needed and is reused. Consulting form as previewed (stage, timeline, optional budget, name, company, work email, phone); project stage stays because it shows the warmest leads; Agilson writes a consulting questionnaire. Events form (type, date, guests, venue, budget range): event types still to refine.
+- **Private dining content:** clients are often wealthy families who want discretion, so almost no client detail. Show 2 or 3 example events with menu, guest count and location, no client info, to show range. Formats from Agilson: cocktail, canapé, seated gastronomy, standing. No prices (Singapore and other markets). Menu examples link from the landing page to the enquiry form and a booking call. Extras (tableware, flowers, wine pairing, cleaning) shown only as general optional add-ons.
+- **Brands:** the full client list goes on the website; the landing page shows the best-known brands with logos, mainly for B2B. Logos are secondary: **photos are the priority now.** (Every name or logo still needs its owner's permission.)
+- **B2B:** push Agilson's personal brand to drive inbound. Service descriptions come from Agilson's ChatGPT-generated scripts file (shared already; to file in Drive). **No Essence & Experience logo file exists.** Jérémy's two monogram versions exist.
+- **Concierges** (luxury event and travel middlemen) mainly request VIP private dining. Karim proposed a dedicated concierge page for SEO and future ads; Agilson suggested researching the terms concierge sites use. Karim can help with blog posts, LinkedIn and content structure from abroad.
+- **Agilson's actions:** consulting questionnaire; feedback on the form screenshots; private dining and event menu examples without prices; updated bio and high-resolution conference photo; event photos once he has Google Drive access.
+- Not settled: which inbox gets each form, reply times, who signs the E&E reply, budget bands' currency.
+
 **2026-10-24, €650 received.** Karim confirmed Jérémy paid invoice 2026-001 (€200 audit + €450 deposit). Exact date and amount after fees not logged yet. Paid so far: €650 of €1,700; next €525 at the jeremygillon.com launch. Week 0 done; weeks 1–2 (jeremygillon.com preview) start now.
 
 **2026-10-19, Agilson sent the career material and proposed the forms call for Tuesday 20 Oct.** WhatsApp 03:04: "We can speak tomorrow Tuesday, if you are available", then a long list of Jérémy's events, four-hands chefs, hotels, brands, wine dinners, consulting, awards and press, plus three files. All filed in Drive, `1. Jérémy Gillon, Private Dining / Biography, awards, collaborations and press` (folder renamed to add "collaborations"):
@@ -80,7 +89,13 @@ Email needs `RESEND_API_KEY`, `ENQUIRY_TO`, `ENQUIRY_FROM` (see `site/.env.examp
 - [ ] Upload the monogram A and B images into Jérémy's Drive folder (his doc says they'll be there).
 - [ ] Log the exact date and the amount received after fees for the €650 (received by 24 Oct).
 - [ ] Log Jérémy's monogram pick (A or B) from his Drive doc.
-- [ ] **Forms call with Agilson, proposed Tuesday 20 Oct**: confirm a time; on the call fill "3. Both sites: forms, email and domains" (fields per form, follow-up, who receives which request) and confirm both partners' titles.
+- [x] Forms call with Agilson (held, summary 26 Oct). Still open from it: inbox per form, reply times, who signs the E&E reply, both partners' titles.
+- [ ] **Give Agilson (and Jérémy) edit access to the E&E Drive folder: Agilson is waiting on it to send event photos.**
+- [ ] File Agilson's service scripts (ChatGPT file) in Drive `2. Essence & Experience / Services and company documents`.
+- [ ] Update the forms preview after the call: reuse the existing private dining form, add the optional extras as general add-ons, refine event types once Agilson sends feedback.
+- [ ] Design an Essence & Experience mark (none exists) with the E&E style sheet in week 2.
+- [ ] Chase Agilson: consulting questionnaire, feedback on the form screenshots, 2–3 menu examples without prices (format, guests, location), updated bio and high-res conference photo, event photos.
+- [ ] Later: concierge page for SEO and ads (research concierge-site terms first).
 - [ ] Drag `22042025_Jeremy-Gillon_PR_card.pdf` into Drive `1. Jérémy Gillon, Private Dining / Biography, awards, collaborations and press`.
 - [ ] Watch the shared Google Drive folder and file what arrives against proposal §5 (Jérémy, E&E, both).
 - [ ] Collect from Jérémy: 2 to 3 past private dining menus or experiences (no client names, no guests), private dining facts (guest min and max, courses, lead time, cancellation policy; no price on the site), the photos he has with rights, written permission for any name or logo shown.
@@ -100,6 +115,7 @@ Email needs `RESEND_API_KEY`, `ENQUIRY_TO`, `ENQUIRY_FROM` (see `site/.env.examp
 - Figma MCP is capped at 20 tool calls per month on the Starter plan, and the quota is spent. The SVG import route replaces it.
 
 ## Decisions log
+- 2026-10-26 (call with Agilson): separate B2B and B2C forms; consulting keeps an optional budget range ("prefer not to say"); private dining extras appear only as general optional add-ons; **the Private Dining page is built first**; photos come before logos; the landing page shows the best-known brands' logos for B2B and the full client list sits elsewhere on the site; Agilson's personal brand leads the B2B side.
 - 2026-10-26: As of today the Drive docs are still blank and the folders empty, nothing ticked in the tracker. Call sheet for Jérémy prepared in chat; enquiry forms preview published for the funnel call.
 - 2026-10-24: Tracker with tick boxes replaces the read-only dashboard (the dashboard format can't save changes from the page). Timeline moved to the top.
 - 2026-10-24: €650 deposit received; the six weeks run from the week of 26 Oct. Dashboard updated (payments, week 0 done, build tasks moved to "now").
