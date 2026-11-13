@@ -1,11 +1,13 @@
 # Chef Jérémy Gillon: STATUS
 
-Updated: 2026-10-26
+Updated: 2026-11-13
 
 Goal: deliver two interlinked websites (jeremygillon.com and essencexp.com) as one project, first paid client of the Agency.
 Status: **won, deposit paid.** €650 (invoice 2026-001) received by 24 Oct; the build starts the week of 26 Oct, so both sites are due live about the week of 30 Nov. Earlier: Proposal sent 15 Oct (€1,700, €650 to start). Jérémy accepted on WhatsApp 16 Oct; bank details sent; Karim created the €650 invoice and drafted the WhatsApp message that sends it, asks for all materials in a shared Google Drive folder, and asks Agilson for the forms call. Deposit received by 24 Oct.
 
 ## Now
+**2026-11-13, E&E context file.** `ESSENCEXP-CONTEXT.md` gathers everything known about essencexp.com (scope, services sources, proof, bios, forms, art direction, open items) for a separate Claude project. Found while compiling it: on 4 Nov Agilson's material reached Drive (his executive profile PDF with short and conference bios, title "Managing Director & Consulting Partner"; a portrait on white; the E&E "Types of menu" proposal deck with event formats and indicative prices, never for the site; a photo gallery from Jérémy). The PR card PDF is now in Drive too. Tracker not updated since 26 Oct.
+
 **2026-10-26, call with Agilson (forms and content).** Karim's summary of the call:
 - **Forms:** separate forms for B2C (jeremygillon.com) and B2B (essencexp.com). The private dining form already on the current build captures what is needed and is reused. Consulting form as previewed (stage, timeline, optional budget, name, company, work email, phone); project stage stays because it shows the warmest leads; Agilson writes a consulting questionnaire. Events form (type, date, guests, venue, budget range): event types still to refine.
 - **Private dining content:** clients are often wealthy families who want discretion, so almost no client detail. Show 2 or 3 example events with menu, guest count and location, no client info, to show range. Formats from Agilson: cocktail, canapé, seated gastronomy, standing. No prices (Singapore and other markets). Menu examples link from the landing page to the enquiry form and a booking call. Extras (tableware, flowers, wine pairing, cleaning) shown only as general optional add-ons.
